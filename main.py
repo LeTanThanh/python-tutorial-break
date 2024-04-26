@@ -18,3 +18,18 @@ if __name__ == "__main__":
       if y > 1:
         break
       print(f"({x}, {y})")
+
+  # Using Python break statement with a while loop
+
+  """
+  while condition:
+    # more code
+    if condition:
+      break
+  """
+
+  print("-- Help: type quit to exit --")
+  while True:
+    color = input("Enter your favorite color: ")
+    if color.lower() == "quit":
+      break
